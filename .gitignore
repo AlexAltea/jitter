@@ -13,14 +13,29 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
+
+# Visual Studio files
+*.aps
+*.idc
+*.ilk
+*.opendb
+*.opensdf
+*.pdb
+*.pfx
+*.ipdb
+*.iobj
+*.sdf
+*.suo
+*.user
+*.tmp
+*.tlog
+*.log
+*.idb
 
 # Executables
 *.exe
