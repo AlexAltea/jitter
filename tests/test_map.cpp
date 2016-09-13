@@ -6,8 +6,6 @@
 #include "test_map.h"
 #include "jitter/map.h"
 
-#include <map>
-
 bool test_map() {
     jitter::map<int, int> map1({
         {0,  1000},

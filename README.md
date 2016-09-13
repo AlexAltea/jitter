@@ -12,11 +12,11 @@ Matches the specifications of `std::map`. Changes:
 
 * The method `jitter::map::compile` causes the internal key-value pairs *((k1,v1), ..., (kn,vn))* to be compiled into: `switch (k) { case k1: return v1; ... case kn: return vn; }`.
 
-* The methods `jitter::map::operator[]` and `jitter::map::at` will try the latest compiled function matching the current map contents if available, otherwise they will fall back to `std::map::operator[]` and `std::map::at` respectively.
+* The methods `jitter::map::operator[]` and `jitter::map::at` will try to run the latest compiled function if available, otherwise they will fall back to `std::map::operator[]` and `std::map::at` respectively.
 
 ### `jitter::unordered_map`
 Matches the specifications of `std::unordered_map`. Changes:
 
 * The method `jitter::unordered_map::compile` causes the internal key-value pairs *((k1,v1), ..., (kn,vn))* to be compiled into: `switch (k) { case k1: return v1; ... case kn: return vn; }`.
 
-* The methods `jitter::unordered_map::operator[]` and `jitter::unordered_map::at` will try the latest compiled function matching the current map contents if available, otherwise they will fall back to `std::unordered_map::operator[]` and `std::unordered_map::at` respectively.
+* The methods `jitter::unordered_map::operator[]` and `jitter::unordered_map::at` will to run try the latest compiled function if available, otherwise they will fall back to `std::unordered_map::operator[]` and `std::unordered_map::at` respectively.

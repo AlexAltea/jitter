@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jitter", "jitter", "{AE0FFDB3-F1CB-4813-B5C9-C393B5254574}"
 	ProjectSection(SolutionItems) = preProject
@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jitter", "jitter", "{AE0FFD
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{9BC0F3C1-44D5-47D0-830C-C7FAB285BEFF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "benchmarks", "benchmarks\benchmarks.vcxproj", "{8AEA203D-9C75-40A3-A79F-56C301F348D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,14 @@ Global
 		{9BC0F3C1-44D5-47D0-830C-C7FAB285BEFF}.Release|x64.Build.0 = Release|x64
 		{9BC0F3C1-44D5-47D0-830C-C7FAB285BEFF}.Release|x86.ActiveCfg = Release|Win32
 		{9BC0F3C1-44D5-47D0-830C-C7FAB285BEFF}.Release|x86.Build.0 = Release|Win32
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Debug|x64.ActiveCfg = Debug|x64
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Debug|x64.Build.0 = Debug|x64
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Debug|x86.Build.0 = Debug|Win32
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Release|x64.ActiveCfg = Release|x64
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Release|x64.Build.0 = Release|x64
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Release|x86.ActiveCfg = Release|Win32
+		{8AEA203D-9C75-40A3-A79F-56C301F348D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
